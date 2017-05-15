@@ -38,7 +38,7 @@
     "react-native-drawer-layout-polyfill": "^1.1.0",
     "react-native-tab-view": "^0.0.61",
     "react-redux": "^4.4.5",
-    "react-static-container": "^1.0.0",
+    "react-static-container": "git+https://github.com/chrisbianca/react-static-container.git",
     "react-timer-mixin": "^0.13.3",
     "redux": "^3.5.2",
     "redux-batched-actions": "^0.1.2",
