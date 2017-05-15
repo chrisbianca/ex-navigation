@@ -760,7 +760,7 @@ class ExNavigationStack extends PureComponent<any, Props, State> {
     );
 
     const latestRouteConfig = latestRoute.config;
-    const { sceneAnimations, gestures } = latestRouteConfig.styles || {};
+    const { sceneAnimations, gestures, style } = latestRouteConfig.styles || {};
 
     const scene: any = props.scene;
     const routeForScene = scene.route;
@@ -775,6 +775,7 @@ class ExNavigationStack extends PureComponent<any, Props, State> {
       sceneAnimations,
       gestures,
       renderScene: this._renderRoute,
+      style,
     };
 
     if (typeof this.props.renderScene === 'function') {
