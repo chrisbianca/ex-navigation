@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import {
   AppRegistry,
   StyleSheet,
@@ -7,7 +7,7 @@ import {
   View,
   StatusBar,
 } from 'react-native';
-
+import PropTypes from 'prop-types';
 import Exponent from 'exponent';
 
 import {
