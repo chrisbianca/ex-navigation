@@ -5,7 +5,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import UUID from 'uuid-js';
-import PropTypes from 'prop-types';
+
 import invariant from 'invariant';
 import { createSelector } from 'reselect';
 import hoistStatics from 'hoist-non-react-statics';
